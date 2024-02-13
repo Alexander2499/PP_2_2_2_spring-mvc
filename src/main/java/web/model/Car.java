@@ -31,4 +31,13 @@ public class Car {
     public void setYearOfRelease(int yearOfRelease) {
         this.yearOfRelease = yearOfRelease;
     }
+
+    public Car() {}
+    public Car(String model, int series, int yearOfRelease) {
+        this.model = model;
+        this.series = series;
+        this.yearOfRelease = yearOfRelease;
+    }
+
+
 }
